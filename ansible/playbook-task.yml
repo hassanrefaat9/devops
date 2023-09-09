@@ -1,0 +1,15 @@
+---
+  - name: "linkedin challenge soluation"
+    hosts: localhost
+
+    tasks:
+
+      - name: "cheack the connectivite"
+        ping:
+
+      - name: "Display the deatils of the two text files"
+        find:
+          paths: "~/Documents"
+          file_type: file
+
+      
